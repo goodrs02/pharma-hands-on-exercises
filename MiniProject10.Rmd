@@ -30,9 +30,9 @@ Over time your collection of STUFF in R will grow. The problem is that if you do
 
 The easiest way to spring clean your R session is to clean out the Environment and restart R.
 
-![R Global Environment with four objects: Data called "adsl", vectors "ALTmax" and "ALTmin" and a function called "uniqueVal"](img/MiniProject10_Environment.PNG)
+![R Global Environment with four objects: Data called "myData", vectors "bar" and "foo" and a function called "myFunction"](img/MiniProject10_Environment.PNG)
 
-![R Global Environment with popup dialogue that appears when you click on the "broom" icon](img/MiniProject10_CleaningEnvironment.PNG)
+![R Global Environment with popup dialogue that appears when you click on the "broom" icon](img/MiniProject10_Cleaning Environment.PNG)
 
 This will clean out the Environment and start "fresh". REMEMBER TO SAVE ANYTHING YOU MIGHT NEED TO KEEP BEFORE YOU DO THIS!!
 
@@ -40,7 +40,7 @@ For reasons of reproducibility, it's a good idea to start with a "clean" environ
 
 When I start an R session, I like to start with this "clean page". If you go to the General tab of the "Global Options" in RStudio IDE there's an option which never reloads existing workspaces (Environment) when you start R and never asks if you would like to save the workspace on exit. If you really want to be clean and tidy (and reproducible) then you should uncheck the "Restore" option and select "Never" for the "Save" option. This ensures that every R session is completely clean when you start it. Every time.
 
-![Global Options (in RStudio IDE) to neither save nor restore objects in a Workspace](img/MiniProject10_GlobalOptions.PNG)
+![Global Options (in RStudio IDE) to neither save nor restore objects in a Workspace](img/MiniProject10_Global options.PNG)
 
 ## Turn it off then turn it on again.
 
